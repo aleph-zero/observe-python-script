@@ -12,7 +12,6 @@ OBSERVE_URL="https://collect.observeinc.com/v1/http/?ts={}"
 sleep_time_seconds = 30
 
 def main():
-
     while True:      
         data = my_awesome_function_to_grab_data_from_somewhere() // CHANGE THIS
         observe(data)
